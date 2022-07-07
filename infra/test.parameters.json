@@ -1,0 +1,6 @@
+{
+  "Parameters": {
+    "Environment": "test",
+    "BucketName": "escoladesoftware-blog-blogpost-content-bucket"
+  }
+}
