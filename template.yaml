@@ -39,7 +39,3 @@ Resources:
             Condition:
               StringEquals:
                 aws:SourceAccount: !Sub "${AWS::AccountId}"
-Outputs:
-  BlogPostContentBucket:
-    Description: BlogPost Content Bucket Name
-    Value: !Ref BlogPostContentBucket
