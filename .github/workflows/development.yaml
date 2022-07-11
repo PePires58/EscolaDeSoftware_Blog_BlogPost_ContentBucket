@@ -1,4 +1,4 @@
-name: Nuget workflow - Development
+name: Deploy stack - Development
 on:
   push:
     branches: [development]

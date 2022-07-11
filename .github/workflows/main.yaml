@@ -1,4 +1,4 @@
-name: Nuget workflow - Prod
+name: Deploy stack - Prod
 on:
   push:
     branches: [main]
