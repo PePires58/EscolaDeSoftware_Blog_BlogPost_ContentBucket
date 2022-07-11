@@ -30,6 +30,7 @@ Resources:
           - Action:
               - s3:GetObject
               - s3:GetObjectVersion
+              - s3:PutObject
             Effect: Allow
             Resource:
               - !Sub arn:aws:s3:::${BlogPostContentBucket}
